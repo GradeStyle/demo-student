@@ -1,0 +1,15 @@
+plugins {
+  id "application"
+}
+
+repositories {
+  mavenCentral()
+}
+
+application {
+  mainClass = "gradestyle.demo.main"
+}
+
+run {
+  standardInput = System.in
+}
